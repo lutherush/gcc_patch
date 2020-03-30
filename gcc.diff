@@ -58,22 +58,10 @@ BENEFITS
 Small but real speed increases are measurable using a make endpoint comparing
 a generic kernel to one built with one of the respective microarchs.
 
-See the following experimental evidence supporting this statement:
-https://github.com/graysky2/kernel_gcc_patch
 
 REQUIREMENTS
 linux version >=5.5
 gcc version >=9.1
-
-ACKNOWLEDGMENTS
-This patch builds on the seminal work by Jeroen.[5]
-
-REFERENCES
-1. https://gcc.gnu.org/gcc-4.9/changes.html
-2. https://bugzilla.kernel.org/show_bug.cgi?id=77461
-3. https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html
-4. https://github.com/graysky2/kernel_gcc_patch/issues/15
-5. http://www.linuxforge.net/docs/linux/linux-gcc.php
 
 --- a/arch/x86/include/asm/module.h	2019-12-15 18:16:08.000000000 -0500
 +++ b/arch/x86/include/asm/module.h	2019-12-17 14:03:55.968871551 -0500
